@@ -1,0 +1,610 @@
+div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+    -epub-hyphens:auto;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 90%;
+}
+.padrao-texto {         
+    color:#000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-decoration:none;
+    orphans:1;
+    widows:1;
+}
+.cor-padrao {
+         color: blue;
+}
+th.cor-padrao {
+         background-color: blue;
+}
+.pagina, .pagina-dupla {
+    width:90%;
+    max-width: 1024px;
+    border: 1px solid #FFFFFF;
+    border-width: thin;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+a {
+     	width: 100%;
+     	word-wrap: break-word;
+     	hyphens: auto;
+     	color: inherit;    	 
+}
+#capa {
+    width:90%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+.imagem-capa {
+    width:100%;
+}
+#contra-capa {
+    width:90%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+}
+img.minicapa {
+         width:30%;
+    margin-left: 30%;
+}
+.bot {
+    background-color: white;
+    width: 30px;
+    height: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    }
+.bot:hover {
+         cursor: pointer;
+}
+.bot:active {
+         box-shadow: 1% #000000;
+}
+.botao{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;
+}
+.entrepags {
+    width: 90%;
+    text-align: right;
+    display: flex;
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icones {
+    width: 8px;
+}
+p.numeracao-de-pagina {
+    align-content: center;
+    font-style: bold;
+    width: 30px;
+    height: 10px;
+    padding: 2px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 8px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+p.numeracao-de-capa {
+    align-content: center;
+    font-style: bold;
+    width: 30px;
+    height: 10px;
+    padding: 2px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 8px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+hr.separador {
+    border-top: #C4C4C4;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 92%
+}
+.link-sumario {
+    text-decoration: none;
+}
+.caixa-credito {
+     overflow: auto;
+     font-size: 0.75rem;
+     border: #000000 1px solid;
+     border-radius: 6px;
+     width: fit-content;
+     padding-left: 4px;
+     padding-right: 5px;
+     margin-top: 1%;
+     margin-bottom: 1%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.block_10 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.block_11 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-indent: 18.1pt;
+}
+.block_12 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1.15;
+    font-family: serif;
+}
+.block_13 {
+    margin-left: 237pt;
+    padding-top: 0;
+    margin-right: 0.15pt;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.block_14 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+    text-align: right;
+}
+.block_15 {
+    padding-top: 0;
+    margin-right: -0.05pt;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: serif;
+    text-align: justify;
+}
+.block_7 {
+    padding-top: 0;
+    padding-bottom: 0;
+	margin-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.block_8 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+    text-align: center;
+}
+.block_9 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+}
+.table_1 {
+    min-width: fit-content;
+	width: 92.5%;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 0.5rem;
+    border-collapse: collapse;
+}
+.td_1 {
+    width: 355pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: none;
+}
+.td_2 {
+    width: 355pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0;
+    padding-bottom: 0.5ex;
+    border-left-style: hidden;
+    border-top-style: solid;
+    border-top-color: currentColor;
+    border-top-width: 1pt;
+    border-right-style: hidden;
+    border-bottom-style: none;
+}
+.td_3 {
+    width: 46pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_4 {
+    width: 309pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_5 {
+    width: 46pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_6 {
+    width: 355pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    border-bottom-color: currentColor;
+    border-bottom-width: 1pt;
+}
+.td_7 {
+    width: 355pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0;
+    padding-bottom: 0.5ex;
+    border-top-style: solid;
+    border-top-color: currentColor;
+    border-top-width: 1pt;
+}
+.text_1 {
+    font-weight: bold;
+}
+.text_2 {
+    color: currentColor;
+    font-weight: bold;
+}
+.tr_1 {
+    page-break-inside: avoid;
+}
+.caixa-bncc {
+    border: #000000 1px solid;
+    border-radius: 6px;
+    width: 90%;
+	width: fit-content;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 0.25px;
+    padding-bottom: 0.25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.texto-bncc {
+	font-size:0.8rem;
+	line-height:1.15;
+	margin-bottom:2%;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:2%;
+         text-align:justify;
+         text-align-last:left;
+}
+.bullet {
+	font-size:1rem;
+	line-height:1.15;
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-bottom:1%;
+	margin-left:1rem;
+         text-align:justify;
+         text-align-last:left;
+}
+.bullet-frase-quebrada {
+	font-size:1rem;
+	line-height:1.15;
+    list-style-type: none;
+	margin-bottom:2%;
+	margin-left:1rem;
+         text-align:justify;
+         text-align-last:left;
+}
+.corpo-texto {
+	font-size:1rem;
+	line-height:1.25;
+	margin-bottom:2%;
+	text-indent:2rem;
+         text-align:justify;
+         text-align-last:left;
+}
+.referencia-texto {
+	font-size:1rem;
+	line-height:1.25;
+	orphans:1;
+	text-indent:2rem;
+         text-align:justify;
+         text-align-last:left;
+}
+.referencia-texto-apoio {
+	font-size:1rem;
+	line-height:1.25;
+	margin-bottom:3%;
+	text-indent:2rem;
+         text-align:justify;
+         text-align-last:left;
+}
+.corpo-texto-frase-quebrada {
+	font-size:1rem;
+	line-height:1.25;
+	margin-bottom:2%;
+         text-align:justify;
+         text-align-last:left;
+}
+.texto-poema {
+	font-size:1rem;
+	font-weight:300;
+	line-height:1.125;
+	margin-bottom:2%;
+         margin-top:1.5rem;
+	margin-left:20%;
+         text-align:justify;
+         text-align-last:left;
+}
+.texto-especial {
+         
+}
+.notas-de-rodape {
+         font-size: 0.7rem;
+}
+.dados-da-obra {
+	font-size:1rem;
+	font-weight:300;
+	line-height:1.2;
+	margin-bottom:2%;
+         margin-left:2rem;
+	text-align:left;
+}
+h1 {
+	-epub-hyphens:none;
+	font-size:2rem;
+	font-weight:bold;
+	line-height:0.96;
+	margin-bottom:2rem;
+	margin-top:1rem;
+	text-align:left;
+     	word-wrap: break-word;
+}
+h2 {
+	-epub-hyphens:none;
+	font-size:1.6rem;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:1rem;
+	margin-top:1rem;
+	text-align:left;
+}
+h3 {
+	-epub-hyphens:none;
+	font-size:1.2rem;
+	font-weight:600;
+	line-height:0.8;
+	margin-bottom:0.8rem;
+	margin-top:0.8rem;
+	text-align:left;
+}
+h4 {
+         font-size: 1rem;
+         font-weight: bold;
+         line-height: 1.25;
+         margin-bottom: 0.8rem;
+         margin-top: 0.8rem;
+	text-align:left;
+}
+.lista-ordenada {
+	font-size:1rem;
+	line-height:1.15;
+	list-style-position:outside;
+	margin-bottom:0.3rem;
+	margin-left:2%;
+         text-align:justify;
+         text-align-last:left;
+}
+.lista-ordenada-frase-quebrada {
+	font-size:1rem;
+	line-height:1.15;
+         list-style-type: none;
+	margin-bottom:0.3rem;
+	margin-left:2%;
+         text-align:justify;
+         text-align-last:left;
+}
+.lista-ordenada::marker {
+	color:#1f4e79;
+         font-weight: bold;
+}
+.sumario-titulo {
+	-epub-hyphens:none;
+	font-family:Calibri, sans-serif;
+	font-size:2rem;
+	font-weight:bold;
+	line-height:0.96;
+	margin-bottom:2rem;
+	margin-top:1rem;
+	text-align:left;
+}
+.sumario-nivel-1 {
+	font-family:Calibri, sans-serif;
+	font-size:1rem;
+	line-height:1.15;
+	margin-bottom:0.3rem;
+	text-align:left;
+}
+.sumario-nivel-2 {
+	font-family:Calibri, sans-serif;
+	font-size:0.95rem;
+	line-height:1.15;
+	margin-bottom:0.3rem;
+	margin-left:2%;
+	text-align:left;
+}
+.credito {
+	font-size:1rem;
+	line-height:1.15;
+	margin-bottom:2%;
+         text-align: center;
+}
+.citacao-longa {
+         font-size: 0.85rem;
+         line-height: 1.25;
+         margin-left: 25%;
+         margin-top: 0.5rem;
+         margin-bottom: 1rem;
+         text-align: justify;
+         text-align-last: left;
+}
+table.tabela-padrao {
+	border-collapse:collapse;
+	border-color:#C4C4C4;
+	border-style:solid;
+	border-width:2px;
+	margin-bottom:3%;
+	margin-top:4px;
+         width: 100%;
+         max-width: 100%;
+}
+.tabela-cabecalho {
+         color: snow;
+	font-size:1rem;
+	font-weight:bold;
+         text-align: center;
+         word-wrap: break-word;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#FFFFFF;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#FFFFFF;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#FFFFFF;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#FFFFFF;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	vertical-align:middle;
+	min-height:19px;
+         object-fit: fill;
+}
+.tabela-celulas {
+	font-size:0.9rem;
+	line-height:1.167;
+	margin-bottom:2%;
+         word-wrap: break-word;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#C4C4C4;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#C4C4C4;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#C4C4C4;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#C4C4C4;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	vertical-align:middle;
+	min-height:19px;
+}
+.normal {
+         font-style: normal;
+}
+.bold {
+	font-weight:bold;
+}
+.italico {
+         font-style: italic;
+}
+.bold-italico {
+	font-style:italic;
+	font-weight:bold;
+}
+.hyperlink {
+         color: #0563C1;
+         text-decoration: underline;
+}
+.caixa-alta {
+         text-transform: uppercase;
+}
+.versalete {
+         font-variant: small-caps;
+         text-transform: capitalize;
+}
+img.imagem-cheia {
+	width:100.00%;
+}
+img.imagem-pequena-esquerda {
+         width: 25%;
+}
+img.imagem-pequena-direita {
+         width: 25%;
+         display: -webkit-box;
+         margin-left: auto;
+}
+img.imagem-pequena-centro {
+         display: block;
+         width: 25%;
+         margin-left: auto;
+         margin-right: auto;
+}
+img.imagem-media-esquerda {
+         width: 50%;
+}
+img.imagem-media-direita {
+         width: 50%;
+         display: -webkit-box;
+         margin-left: auto;
+}
+img.imagem-media-centro {
+         display: block;
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+}

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+    <head>
+    <meta charset="utf-8">
+    <title>Livro do Estudante</title>
+    <link href="../recursos/css/estilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="padrao-texto" id="Livro">
+      <div itemscope="" itemtype="https://schema.org/Book"> 
+        <!-- <meta itemprop="accessibilityFeature" content="largePrint/CSSEnabled">
+             <meta itemprop="accessibilityFeature" content="highContrast/CSSEnabled">
+             <meta itemprop="accessibilityFeature" content="resizeText/CSSEnabled">
+             <meta itemprop="accessibilityFeature" content="displayTransformability">
+             <meta itemprop="accessibilityFeature" content="longDescription">
+             <meta itemprop="accessibilityFeature" content="alternativeText">
+             <meta itemprop="accessibilityControl" content="fullKeyboardControl">
+             <meta itemprop="name" content="###NAME###">
+             <meta itemprop="description" content="###DESCRIPTION###"> -->
+    </div>
+    <div id="capa">
+      <img class="imagem-capa" src="../recursos/Image/CAPA_1_LA.png" title="Capa do livro. Título. Autora. Ilustradora. Adaptadora. Editora. Descrição da Ilustração." alt="Capa do livro. Título. Autora. Ilustradora. Adaptadora. Editora. Descrição da Ilustração.">
+    </div><hr class="separador" id="pagina1">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 1" style="page-break-before: auto">1</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#capa'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina2'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <img src="../recursos/image/folhaderosto.png" class="imagem-cheia" title="Informações de Folha de Rosto" alt="Informações de Folha de Rosto">
+    </div>
+  <hr class="separador" id="pagina2">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 2" style="page-break-before: auto">2</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina1'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina3'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <p class="credito"><span class="bold">Título do Livro</span></p>
+        <details class="caixa-credito">
+            <summary>Ficha Catalográfica</summary>
+            <table class="table_1">
+                 <tbody>
+                   <tr class="tr_1">
+                      <td colspan="2" class="td_1"><p class="block_7 text_1">Orgão de Catalogação</p><p class="block_7">(Tipo, Cidade/XX)</p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td colspan="2" class="td_2"><p class="block_8"> </p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td class="td_3"><p class="block_9"> </p></td>
+                      <td class="td_4"><p class="block_12">Sobrenome, Nome.</p></td>
+                   </tr>
+            <tr>
+            <td class="td_3"><p class="block_10">X000x</p></td>
+                      <td class="td_4"><p class="block_11">Título do livro / Nome Sobrenome; ilustrações Nome Sobrenome. – Cidade, XX: Editora, 20XX.</p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td class="td_5"><p class="block_12"> </p></td>
+                      <td class="td_4"><p class="block_9"> </p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td rowspan="2" class="td_3"><p class="block_9"> </p></td>
+                      <td class="td_4"><p class="block_11">000 p. : il. ; 00,0 x 00,0 cm</p><p class="block_11">ISBN: 000-00-000000-0-0 (Aluno)</p><p class="block_11">ISBN: 000-00-000000-0-0 (Professor)</p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td class="td_4"><p class="block_9"> </p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td class="td_3"><p class="block_9"> </p></td>
+                      <td class="td_4"><p class="block_11">1. Palavra-chave. 2. Palavra-chave. I. Sobrenome, Nome. II. Título.</p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td class="td_3"><p class="block_9"> </p></td>
+                      <td class="td_4"><p class="block_13">CDD 028.5</p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td colspan="2" class="td_6"><p class="block_14"> </p></td>
+                   </tr>
+                   <tr class="tr_1">
+                      <td colspan="2" class="td_7"><p class="block_7">Elaborado por Bibliotecário – CRBX/0000</p></td>
+                   </tr>
+                 </tbody>
+         </table>
+       </details>
+        <p class="credito"><span class="italico">“Em respeito ao meio ambiente, as folhas deste livro foram produzidas com fibras obtidas de árvores de florestas plantadas, com origem certificada.”</span></p>
+    </div>
+  <hr class="separador" id="pagina3">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 3" style="page-break-before: auto">3</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina2'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina4'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <p class="sumario-titulo">Sumário</p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-i" class="link-sumario">Títulos</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-ii" class="link-sumario">Textos</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-ii-i" class="link-sumario">Modelo de Poema</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-ii-ii" class="link-sumario">Citação</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-ii-iii" class="link-sumario">Texto que termina na outra página</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-iii" class="link-sumario">Listas</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-iii-i" class="link-sumario">Lista Ordenada</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-iii-ii" class="link-sumario">Lista Não-Ordenada</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-iv" class="link-sumario">Imagens</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-v" class="link-sumario">Estilos de Caracteres</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-vi" class="link-sumario">Tabela</a>
+        </p>
+        <p class="sumario-nivel-1">
+            <a href="#cap-vii" class="link-sumario">Glossário</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-vii-i" class="link-sumario">Texto com Itens</a>
+        </p>
+        <p class="sumario-nivel-2">
+            <a href="#cap-vii-ii" class="link-sumario">Lista de Itens</a>
+        </p>
+    </div>
+  <hr class="separador" id="pagina4">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 4" style="page-break-before: auto">4</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina3'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina5'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <section id="cap-i">
+            <h1>Título Nível 1</h1>
+            <h1 class="cor-padrao">Título com a cor do livro</h1>
+            <h2>Título Nível 2</h2>
+            <h3>Título Nível 3</h3>
+            <h4>Título Nível 4</h4>
+        </section>
+    </div>
+  <hr class="separador" id="pagina5">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 5" style="page-break-before: auto">5</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina4'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina6'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <section id="cap-ii">
+            <h1 class="cor-padrao">Texto Padrão</h1>
+            <p class="corpo-texto">Exemplo de texto padrão que será usado em todo o livro.</p>
+            <section id="cap-ii-i">
+                <h2 class="cor-padrao">Modelo de Poema</h2>
+                <p class="corpo-texto">Texto acima da citação para comparação.</p>
+                <p class="texto-poema">Primeira linha de um poema</p>
+                <p class="texto-poema">Segunda linha de um poema</p>
+                <p class="texto-poema">Terceira linha de um poema</p>
+                <p class="corpo-texto">Texto abaixo para comparação.</p>
+            </section>
+            <section id="cap-ii-ii">
+                <h2 class="cor-padrao">Citação</h2>
+                <p class="corpo-texto">Texto acima da citação para comparação.</p>
+                <p class="citacao-longa">Modelo de texto para citações que podem ser usados tanto durante o livro quanto o Manual de Apoio ao Professor.</p>
+                <p class="corpo-texto">Texto abaixo para comparação.</p>
+            </section>
+            <section id="cap-ii-iii">
+                <h2 class="cor-padrao">Texto que termina na outra página</h2>
+                <p class="corpo-texto">Texto que deve continuar na outra página, baseado no conteúdo do livro que está sendo convertido</p>
+            </section>
+        </section>
+    </div>
+  <hr class="separador" id="pagina6">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 6" style="page-break-before: auto">6</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina5'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina7'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <p class="corpo-texto-frase-quebrada">para o formato HTML.</p>
+        <p class="corpo-texto">Um lorem-ipsum de cinquenta palavras para mostrar o porque o texto que termina em outra frase é diferente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut odio nibh, venenatis id nisi ac, mollis lobortis libero. Morbi ac ex vitae libero pulvinar pharetra non eu magna. Nam ante nibh, tristique at dui fringilla, vulputate eleifend sem. Nulla rhoncus vitae lorem sit amet pulvinar. Nulla facilisi. Ut mattis orci.</p>
+    </div>
+  <hr class="separador" id="pagina7">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 7" style="page-break-before: auto">7</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina6'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina8'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <section id="cap-iii">
+            <h1 class="cor-padrao">Listas</h1>
+            <section id="cap-iii-i">
+                <h2 class="cor-padrao">Lista Ordenada</h2>
+                <ol>
+                    <li class="lista-ordenada">Primeiro item da lista.</li>
+                    <li class="lista-ordenada">Segundo item da lista que começa</li>
+                </ol>
+            </section>
+        </section>
+    </div>
+  <hr class="separador" id="pagina8">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 8" style="page-break-before: auto">8</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina7'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina9'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <ol start="2">
+            <li class="lista-ordenada-frase-quebrada">em uma linha e termina em outra.</li>
+            <li class="lista-ordenada">Terceiro item da lista.</li>
+        </ol>
+        <section id="cap-iii-ii">
+            <h2 class="cor-padrao">Lista Não-Ordenada</h2>
+            <ul>
+                <li class="bullet">Primeiro item da lista.</li>
+                <li class="bullet">Segundo item da lista que começa</li>
+            </ul>
+        </section>
+    </div>
+  <hr class="separador" id="pagina9">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 9" style="page-break-before: auto">9</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina8'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina10'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <ul>
+            <li class="bullet-frase-quebrada">em uma linha e termina em outra.</li>
+            <li class="bullet">Terceiro item da lista.</li>
+        </ul>
+    </div>
+  <hr class="separador" id="pagina10">
+  <div class="entrepags">
+       <p class="numeracao-de-pagina" title="Página 10" style="page-break-before: auto">10</p>
+       <nav class="botao">
+            <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina9'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+            <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina11'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+            <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+            <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+       </nav>
+  </div>
+  <div class="pagina">
+        <section id="cap-iv">
+            <h1 class="cor-padrao">Imagens</h1>
+            <p class="corpo-texto">O temanho das imagens são definidas de acordo com a largura, por isso, mesmo que uma imagem seja maior em altura, a largura sempre estará pré-definida.</p>
+            <h3 class="cor-padrao">Imagem Cheia</h3>
+            <img src="../recursos/image/1.jpg" class="imagem-cheia" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+        </section>
+    </div>
+    <hr class="separador" id="pagina11">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 11-12" style="page-break-before: auto">11--12</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina10'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina12'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina-dupla">
+          <h3 class="cor-padrao">Imagem Média</h3>
+          <p class="corpo-texto">Imagem Média à Esquerda.</p>
+          <img src="../recursos/image/2.jpg" class="imagem-media-esquerda" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+          <p class="corpo-texto">Imagem Média ao Centro.</p>
+          <img src="../recursos/image/3.jpg" class="imagem-media-centro" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+          <p class="corpo-texto">Imagem Média à Direita.</p>
+          <img src="../recursos/image/4.jpg" class="imagem-media-direita" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+      </div>
+    <hr class="separador" id="pagina12">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 13-14" style="page-break-before: auto">13-14</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina11'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina13'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina-dupla">
+          <h3 class="cor-padrao">Imagem Pequena</h3>
+          <p class="corpo-texto">Imagem Pequena à Esquerda.</p>
+          <img src="../recursos/image/5.jpg" class="imagem-pequena-esquerda" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+          <p class="corpo-texto">Imagem Pequena ao Centro.</p>
+          <img src="../recursos/image/6.jpg" class="imagem-pequena-centro" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+          <p class="corpo-texto">Imagem Pequena à Direita.</p>
+          <img src="../recursos/image/7.jpg" class="imagem-pequena-direita" title="Ilustração de nuvens." alt="Ilustração de nuvens.">
+      </div>
+    <hr class="separador" id="pagina13">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 15" style="page-break-before: auto">15</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina12'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina14'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina">
+          <section id="cap-v">
+              <h1 class="cor-padrao">Estilos de Caracteres</h1>
+              <p class="corpo-texto">Um texto de exemplo pra exemplificar os modelos de <span class="bold">negrito</span>, <span class="italico">italico</span>, <span class="bold-italico">negrito com itálico</span>, <span class="hyperlink">um hyperlink para uma página da internet fora desse livro</span>, <span class="caixa-alta">caixa alta</span> e <span class="versalete">versalete</span>.</p>
+          </section>
+      </div>
+    <hr class="separador" id="pagina14">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 16" style="page-break-before: auto">16</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina13'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina15'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina">
+          <section id="cap-vi">
+              <h1 class="cor-padrao">Tabela</h1>
+              Modelo de tabela que será usada no livro e no Material de Apoio ao Professor.
+              <table class="tabela-padrao">
+                  <thead>
+                      <tr>
+                          <th class="cor-padrao" colspan="2">
+                              <p class="tabela-cabecalho">Modelo de Tabela</p>
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="tabela-celulas">Modelo 1</td>
+                          <td class="tabela-celulas">Modelo 2</td>
+                      </tr>
+                      <tr>
+                          <td class="tabela-celulas">Modelo 3</td>
+                          <td class="tabela-celulas">Modelo 4</td>
+                      </tr>
+                      <tr>
+                          <td class="tabela-celulas">Modelo 5</td>
+                          <td class="tabela-celulas">Modelo 6</td>
+                      </tr>
+                      <tr>
+                          <td class="tabela-celulas">Modelo 7</td>
+                          <td class="tabela-celulas">Modelo 8</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </section>
+      </div>
+    <hr class="separador" id="pagina15">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 17" style="page-break-before: auto">17</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina14'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#pagina16'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina">
+          <section id="cap-vii">
+              <h1 class="cor-padrao">Glossário</h1>
+              <p class="corpo-texto">Para demonstração do glossário é necessário um lorem ipsum para adicionar cinco itens, que irão ser listados na segunda seção.</p>
+              <section id="cap-vii-i">
+                  <h2 class="cor-padrao">Texto com Itens</h2>
+                  <p class="corpo-texto"><a href="#nota-1" class="link-sumario"><span id="nota-reversa-1">Lorem ipsum<sup>1</sup></span></a> dolor sit amet, consectetur adipiscing elit. Donec facilisis nibh sit amet lectus consequat, sit amet aliquam eros eleifend. Fusce at sapien at velit euismod aliquam. Nam non enim augue. Aliquam ac sollicitudin magna, sit amet posuere odio. Nulla faucibus purus ut augue scelerisque, at gravida felis pretium. <a href="#nota-2" class="link-sumario"><span id="nota-reversa-2">Aenean<sup>2</sup></span></a> metus mi, elementum ac lectus maximus, facilisis ultricies leo. Donec felis diam, tincidunt non dui sed, pharetra finibus ex. Nam vehicula nunc id pretium posuere. Fusce volutpat posuere nunc in ullamcorper.</p>
+                  <p class="corpo-texto">Sed id malesuada augue. Suspendisse dapibus massa sed augue vehicula vehicula. Cras finibus quam ac elementum venenatis. Nunc sed diam orci. Vestibulum sodales purus et condimentum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eros ante, tempus eget <a href="#nota-3" class="link-sumario"><span id="nota-reversa-3">tincidunt<sup>3</sup></span></a> ac, pharetra sit amet mauris. Maecenas finibus magna eu massa lobortis maximus. Morbi a rutrum orci. Nunc a rutrum augue, sit amet facilisis purus. Nulla luctus aliquam turpis, eu pulvinar magna imperdiet eu. Proin in tristique eros. Curabitur pretium rutrum pharetra.</p>
+                  <p class="corpo-texto">Sed id ex mi. Aliquam euismod imperdiet libero, in consequat sapien dignissim ut. Etiam vel sodales turpis. Vivamus at <a href="#nota-4" class="link-sumario"><span id="nota-reversa-4">pellentesque<sup>4</sup></span></a> enim, a lobortis elit. Aenean porttitor, enim et mollis dapibus, dolor nisl eleifend leo, nec iaculis tortor eros quis quam. Curabitur a metus ac tellus vestibulum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer nibh dui, ullamcorper nec aliquet non, pharetra sed nisi. Vestibulum <a href="#nota-5" class="link-sumario"><span id="nota-reversa-5">tristique<sup>5</sup></span></a>, ligula a auctor auctor, libero risus dignissim odio, pulvinar luctus est dolor et urna. Aliquam iaculis orci sit amet risus imperdiet posuere. Duis vel risus porttitor, aliquam turpis ac, consequat ex. In placerat tortor magna, sed tempor tellus scelerisque vitae. Phasellus tellus dui, viverra id gravida id, pulvinar quis leo. Quisque id consectetur arcu. Ut eget diam vel dui lobortis lobortis ultricies quis erat. Mauris.</p>
+              </section>
+          </section>
+      </div>
+    <hr class="separador" id="pagina16">
+    <div class="entrepags">
+         <p class="numeracao-de-pagina" title="Página 18" style="page-break-before: auto">18</p>
+         <nav class="botao">
+              <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina15'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+              <button class="bot btn-avanca" title="Avançar" onclick="window.location='#quarta-capa'"> <img src="../recursos/image/right.png" class="icones" alt="Avançar"> </button>
+              <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+              <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+         </nav>
+    </div>
+    <div class="pagina">
+          <section id="cap-vii-ii">
+              <h2 class="cor-padrao">Lista de Itens</h2>
+              <dl>
+                  <dt id="nota-1"><dfn><a href="#nota-reversa-1">1</a></dfn></dt>
+                  <dd>Conteúdo do item da lista.</dd>
+                  <dt id="nota-2"><dfn><a href="#nota-reversa-2">2</a></dfn></dt>
+                  <dd>Conteúdo do item da lista.</dd>
+                  <dt id="nota-3"><dfn><a href="#nota-reversa-3">3</a></dfn></dt>
+                  <dd>Conteúdo do item da lista.</dd>
+                  <dt id="nota-4"><dfn><a href="#nota-reversa-4">4</a></dfn></dt>
+                  <dd>Conteúdo do item da lista.</dd>
+                  <dt id="nota-5"><dfn><a href="#nota-reversa-5">5</a></dfn></dt>
+                  <dd>Conteúdo do item da lista.</dd>
+              </dl>
+          </section>
+      </div>
+  <hr class="separador" id="quarta-capa">
+		    <div class="entrepags">
+			      <p class="numeracao-de-capa" title="Quarta Capa" style="page-break-before: auto">&nbsp;</p>
+			      <nav class="botao">
+				        <button class="bot btn-volta" title="Voltar" onclick="window.location='#pagina16'"> <img src="../recursos/image/back.png" class="icones"  alt="Voltar"> </button>
+				        <button class="bot btn-capa" title="Capa" onclick="window.location='#capa'"> <img src="../recursos/image/up-arrow.png" class="icones" alt="Capa"> </button>
+				        <button class="bot btn-sumario" title="Sumário" onclick="window.location='../index.html'"> <img src="../recursos/image/list-text.png" class="icones"  alt="Sumário"> </button>
+			      </nav>
+		    </div>
+		    <div id="contra-capa">
+            <img class="imagem-cheia" src="../recursos/Image/CAPA_4_LA.png" title="Quarta capa do livro. Ilustração: Descrição de ilustração. Texto: Conteúdo escrito na quarta capa. ISBN 000-00-000000-0-0." alt="Quarta capa do livro. Ilustração: Descrição de ilustração. Texto: Conteúdo escrito na quarta capa. ISBN 000-00-000000-0-0.">
+		    </div>
+    </body>
+</html>

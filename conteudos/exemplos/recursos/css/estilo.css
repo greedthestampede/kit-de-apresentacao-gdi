@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+h1, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bot {
+    background-color: white;
+    width: 30px;
+    height: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    }
+.bot:hover {
+         cursor: pointer;
+}
+.bot:active {
+         box-shadow: 1% #000000;
+}
+.botao{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;
+}
+.entrepags {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+.icones {
+    width: 8px;
+}

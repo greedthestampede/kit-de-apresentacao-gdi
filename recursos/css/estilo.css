@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+h1, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem black;
+    border-style: double;
+    border-radius: 5px;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+a {
+    color: black;
+    margin-bottom: 1%;
+}

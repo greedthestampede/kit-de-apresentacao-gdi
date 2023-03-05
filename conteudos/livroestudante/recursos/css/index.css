@@ -1,0 +1,326 @@
+.pagina {
+    width:90%;
+    max-width: 1024px;
+    border: 1px solid #EEEEEE;
+    border-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1%;
+}
+.mini-capa {
+    width: 25%;
+         height: 100%;
+    margin-right: 2rem;
+}
+#cabecalho {
+    width:90%;
+    max-width: 1024px;
+    border: 1px solid #EEEEEE;
+    border-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1%;
+    display: flex;
+}
+h2 {
+    color:#0079bf;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size:1.2rem;
+    font-weight:bold;
+    line-height:1.2;
+    margin-bottom:3%;
+    margin-left:0;
+    margin-right:0;
+    margin-top:4%;
+    text-align:left;
+    text-decoration:none;
+}
+.dados-da-obra {
+    color:#000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size:0.85rem;
+    line-height:1.2;
+    margin-bottom:1.5%;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:left;
+    text-decoration:none;
+    text-indent:1rem;
+    widows:1;
+}
+.bot {
+    background-color: white;
+    width: 30px;
+    height: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    }
+.bot:hover {
+         cursor: pointer;
+}
+.bot:active {
+         box-shadow: 1% #000000;
+}
+.botao{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;
+}
+.entrepags {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+.icones {
+    width: 12px;
+}
+.alinhamento-caixa-credito {
+    margin:10px auto 5px 0;
+    text-align:left;
+}
+.caixa-credito {
+    overflow: auto;
+    font-size: 0.75rem;
+    border: #000000 1px solid;
+    border-radius: 6px;
+    width: fit-content;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.block_10 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.block_11 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-indent: 18.1pt;
+}
+.block_12 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1.15;
+    font-family: serif;
+}
+.block_13 {
+    margin-left: 237pt;
+    padding-top: 0;
+    margin-right: 0.15pt;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.block_14 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+    text-align: right;
+}
+.block_15 {
+    padding-top: 0;
+    margin-right: -0.05pt;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: serif;
+    text-align: justify;
+}
+.block_7 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.block_8 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+    text-align: center;
+}
+.block_9 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: serif;
+}
+.table_1 {
+    min-width: fit-content;
+    width: 92.5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-collapse: collapse;
+}
+.td_1 {
+    width: 355pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: none;
+}
+.td_2 {
+    width: 355pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0;
+    padding-bottom: 0.5ex;
+    border-left-style: hidden;
+    border-top-style: solid;
+    border-top-color: currentColor;
+    border-top-width: 1pt;
+    border-right-style: hidden;
+    border-bottom-style: none;
+}
+.td_3 {
+    width: 46pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_4 {
+    width: 309pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_5 {
+    width: 46pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.td_6 {
+    width: 355pt;
+    vertical-align: top;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0.5ex;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    border-bottom-color: currentColor;
+    border-bottom-width: 1pt;
+}
+.td_7 {
+    width: 355pt;
+    vertical-align: middle;
+    padding-left: 3.5pt;
+    padding-right: 3.5pt;
+    padding-top: 0;
+    padding-bottom: 0.5ex;
+    border-top-style: solid;
+    border-top-color: currentColor;
+    border-top-width: 1pt;
+}
+.text_1 {
+    font-weight: bold;
+}
+.text_2 {
+    color: currentColor;
+    font-weight: bold;
+}
+.tr_1 {
+    page-break-inside: avoid;
+}
+.link-sumario {
+    text-decoration: none;
+    color: #000000;
+}
+.titulo-sumario {
+    color:#000000;
+    font-family:"Times New Roman", serif;
+    font-size:2rem;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1;
+    margin-bottom:3%;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:none;
+    widows:1;
+}
+.sumario-nivel-1 {
+    font-family:"Times New Roman", serif;
+    font-size:1.25rem;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.167;
+    margin-bottom:1.5%;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:none;
+    widows:1;
+}
+.sumario-nivel-2 {
+    font-family:"Times New Roman", serif;
+    font-size:1.20rem;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:300;
+    line-height:1.167;
+    margin-bottom:1.5%;
+    margin-left:1rem;
+    margin-right:0;
+    margin-top:0;
+    orphans:1;
+    page-break-after:auto;
+    page-break-before:auto;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0;
+    text-transform:none;
+    widows:1;
+}
