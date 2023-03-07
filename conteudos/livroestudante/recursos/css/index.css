@@ -1,3 +1,11 @@
+
+body {
+    display: flex;
+  flex-direction: column;
+}
+.conteudo {
+    flex: 1 0 auto;
+}
 .pagina {
     width:90%;
     max-width: 1024px;
@@ -67,7 +75,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #EEEEEE;
-    border-radius: 10px;
     }
 .bot:hover {
          cursor: pointer;
@@ -81,21 +88,21 @@ h2 {
     font-size: 8px;
 }
 .entrepags {
-    width: 40%;
+    width: 100%;
     text-align: center;
     display: flex;
-    position: relative;
-    align-content: center;
+    position: fixed;
+    bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
 }
 .icones {
-    width: 12px;
+    width: 8px;
 }
 .alinhamento-caixa-credito {
-    margin:10px auto 5px 0;
-    text-align:left;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
 }
 .caixa-credito {
     overflow: auto;
