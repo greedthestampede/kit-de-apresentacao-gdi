@@ -19,10 +19,14 @@ h1, h3, h4 {
     border: 1px solid #EEEEEE;
     }
 .bot:hover {
-         cursor: pointer;
+        cursor: pointer;
+        border-radius: 10px;
 }
 .bot:active {
-         box-shadow: 1% #000000;
+        box-shadow: 1% #000000;
+}
+.trans {
+   transition: border-radius 0.2s;
 }
 .botao{
     width: 100%;
